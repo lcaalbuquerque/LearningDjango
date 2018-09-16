@@ -20,5 +20,5 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', HelloDjangoApp.views.index, name='index'),
-    url(r'^home$', HelloDjangoApp.views.index, name='home'),
+    url(r'^home$', HelloDjangoApp.views.index, name='home')
 ]
